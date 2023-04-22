@@ -14,7 +14,7 @@ class unaClase{
 };
 ```
 
-Se llama de la siguiente forma:
+Para instanciar nuestra clase se hace de la siguiente forma:
 ```php
 $unObjeto = new unaClase;
 $unObjeto->unMetodo1('numero',1);
