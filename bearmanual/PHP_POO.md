@@ -20,7 +20,7 @@ $unObjeto = new unaClase;
 $unObjeto->unMetodo1('numero',1);
 ```
 
-Para usar variables dentro de nuestra clase debemos crear nuestro `constructor` que las variables dentro de éste se puedan usar en todos los métodos de la clase:
+Para usar variables dentro de nuestra clase debemos crear nuestro `constructor`, en donde, están las variables que se van a usar dentro de nuestros métodos de la clase, este constructor es lo primero que se llama al ejecutar la clase, al instanciarla:
 ```php
 class unaClase{
 	public function __construct($parametro1, $parametro2){
@@ -86,7 +86,7 @@ class otraClase extends unaClase{
 };
 ```
 
-Podemos hacer uso de los getters: 
+Podemos hacer uso de los `getters`: 
 ```php
 public function getName(){
 	return $this->uno;
